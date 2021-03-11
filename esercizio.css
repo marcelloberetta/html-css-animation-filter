@@ -34,7 +34,17 @@
 
    /* ESERCIZIO 5 */
 
-  
+   .ex-5-square:hover{
+      transition: 3s;
+      transform: scale(2,2);
+   
+   }
+   
+   .ex-5-square:active{
+      transition: 3s;
+      transform: scale(0.5 , 0.5);
+
+   }
 
 
    /* ESERCIZIO 6 */
@@ -45,5 +55,33 @@
 
    }
 
-   
+   /* ESERCIZIO 7 */   
 
+   .ex-7-img:hover{
+
+      transition:  2s;
+      filter: sepia(0.7) grayscale(0.3);
+     
+   }
+
+   /* ESERCIZIO 8  */
+
+   .ex-8-img:hover{
+      transition: 3s;
+      border-radius: 10%;
+      filter: grayscale(0.75);
+      filter: sepia(0.75);
+     
+        
+   }
+
+
+   /* ESERCIZIO 9 */
+
+   .ex-9-img:hover{
+      transition: 3s;
+      transform: scale(1.5);
+      border-radius: 10%;
+     filter: sepia(0.5) grayscale(0.5);
+
+   }
