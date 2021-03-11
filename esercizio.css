@@ -89,10 +89,9 @@
 
    /* ESERCIZIO 10 */
      .ex-10-icon{
-        animation-name: rotate;
-        animation-duration: infinite;
+        animation: rotate 1s linear infinite;
      
-   }
+      }
 
    @keyframes rotate{
 
@@ -105,12 +104,66 @@
    /* ESERCIZIO 11 */
 
    .ex-11-icon:hover{
+
+      animation: rotate75 2s ;
       
    }
+@keyframes  rotate75{
 
+0%{transform: rotate(0deg);
+ }
+
+ 50%{ transform: rotate(270deg); }
+
+ 100%{ transform: rotate(0deg);
+}
+}
 
 
    /* ESERCIZIO 12 */
+
+   .ex-12-button:hover  .ex-12-top-white{
+      animation:  firstspace 2s linear;
+  }
+  
+  @keyframes firstspace {
+
+   0%{
+      left: 10%;
+   }
+
+   50%{
+      left: 60%;
+   }
+
+   100%{
+      left: 10%;
+   }
+ 
+
+}
+
+
+.ex-12-button:hover .ex-12-bottom-white{
+   animation: secondspace 2s linear;
+}
+
+@keyframes secondspace{
+
+   0%{
+      right: 20%;
+   }
+
+   50%{
+      right: 70%;
+   }
+
+   100%{
+      right: 20%;
+   }
+}
+     
+
 
 
 
