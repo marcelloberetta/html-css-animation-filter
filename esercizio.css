@@ -85,3 +85,34 @@
      filter: sepia(0.5) grayscale(0.5);
 
    }
+
+
+   /* ESERCIZIO 10 */
+     .ex-10-icon{
+        animation-name: rotate;
+        animation-duration: infinite;
+     
+   }
+
+   @keyframes rotate{
+
+      0% {
+      transform: rotate(360deg);
+      }
+   }
+   
+
+   /* ESERCIZIO 11 */
+
+   .ex-11-icon:hover{
+      
+   }
+
+
+
+   /* ESERCIZIO 12 */
+
+
+
+
+   /* ESERCIZIO 13 */
